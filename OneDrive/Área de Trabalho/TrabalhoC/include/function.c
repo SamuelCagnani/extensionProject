@@ -32,15 +32,57 @@ void inserirInicio (Lista *lista, Contato *novoContato) {
     lista->tamanho++;
 
 }
-/*void inserirFim (Lista *lista){
+//Funcao para inserir um contato ao final da lista
+void inserirFim (Lista *lista, Contato *novoContato){
 
-    Contato *p;
-    p = lista->inicio; 
+    if(lista->inicio == NULL){
 
-    while ((p->proximo) != NULL){
-            p = p->proximo;
+        printf("A lista está vazia! Não há possibilidades para inserir um contato no fim da lista.\n");
+        return;
     }
-} */
+    else{
+
+        Contato *p;
+        p = lista->inicio; 
+
+        while ((p->proximo) != NULL){
+                p = p->proximo;
+        }
+        p->proximo = novoContato;
+        lista->tamanho++;
+
+    }
+    
+} 
+
+Contato * inserirNovoContato ( ) {
+   
+    Contato *novoContato = (Contato*) malloc(sizeof(Contato));
+    novoContato->proximo = NULL;
+
+    printf("Digite o nome do contato: ");
+    scanf("%s", novoContato->nome);
+    printf("Digite o email do contato: ");
+    scanf("%s", novoContato-> email);
+    printf("Digite o nome da rua: ");
+    scanf("%s", novoContato->endereco.rua);
+    printf("Digite o numero da casa: ");
+    scanf("%d", &novoContato->endereco.numero);
+    printf("Digite o nome do bairro: ");
+    scanf("%s", novoContato->endereco.bairro);
+    printf("Digite o nome da cidade: ");
+    scanf("%s", novoContato->endereco.cidade);
+    printf("Digite o ddd do seu telefone [xx]: ");
+    scanf("%s", novoContato->telefone[0].ddd);
+    printf("Digite o numero do seu telefone: ");
+    scanf("%s", novoContato->telefone[0].numero);
+    printf("Digite o ddd do seu celular [xx]: ");
+    scanf("%s", novoContato->telefone[1].ddd);
+    printf("Digite o numero do seu celular: ");
+    scanf("%s", novoContato->telefone[1].numero);
+
+    return novoContato;
+}
 
 void imprimirLista(Lista *lista) {
     
