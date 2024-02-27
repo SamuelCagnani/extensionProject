@@ -1,0 +1,473 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.blue_cards {
+    background: linear-gradient(rgb(0, 140, 255), blue);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 36%;
+    position: absolute;
+    top: 10%;
+    margin-left: 89%; 
+    border-radius: 15%;
+}
+
+.pink_cards {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 36%;
+    position: absolute;
+    top: 10%;
+    margin-left: 78%; 
+    border-radius: 15%;
+    background: linear-gradient(pink, purple);
+}
+
+.yellow_cards {
+    background: linear-gradient(rgb(248, 248, 124), orange);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 36%;
+    position: absolute;
+    top: 10%;
+    margin-left: 67%; 
+    border-radius: 15%;
+}
+.numeros {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+#square1 {
+    background: radial-gradient(rgb(248, 248, 124), orange);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 15%;
+    top: 10%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square2 {
+    background: radial-gradient(rgb(0, 140, 255), blue);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 23%;
+    top: 10%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square3 {
+    background: radial-gradient(pink, purple);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 23%;
+    top: 26%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square4 {
+    background: radial-gradient(rgb(0, 140, 255), blue);
+    width: 8%;
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 23%;
+    top: 42%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square5 {
+    background: radial-gradient(rgb(248, 248, 124), orange);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 15%;
+    top: 42%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square6 {
+    background: radial-gradient(pink, purple);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 7%;
+    top: 42%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square7 {
+    background: radial-gradient(rgb(0, 140, 255), blue);
+    width: 8%;
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 7%;
+    top: 58%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square8 {
+    background: radial-gradient(rgb(248, 248, 124), orange);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 7%;
+    top: 74%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square9 {
+    background: radial-gradient(pink, purple);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 15%;
+    top: 74%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#square10 {
+    background: radial-gradient(rgb(0, 140, 255), blue);
+    width: 8%;
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 23%;
+    top: 74%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square11 {
+    background: radial-gradient(rgb(248, 248, 124), orange);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 31%;
+    top: 74%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square12 {
+    background: radial-gradient(pink, purple);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 39%;
+    top: 74%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square13 {
+    background: radial-gradient(rgb(0, 140, 255), blue);
+    width: 8%;
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 39%;
+    top: 58%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square14 {
+    background: radial-gradient(rgb(248, 248, 124), orange);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 39%;
+    top: 42%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#square15 {
+    background: radial-gradient(pink, purple);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 39%;
+    top: 26%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square16 {
+    background: radial-gradient(rgb(0, 140, 255), blue);
+    width: 8%;
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 47%;
+    top: 26%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square17 {
+    background: radial-gradient(rgb(248, 248, 124), orange);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 55%;
+    top: 26%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#square18 {
+    background: radial-gradient(pink, purple);
+    width: 8%;
+    height: 16%;
+    position: absolute;
+    margin-left: 55%;
+    top: 42%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#INICIO{
+    background: radial-gradient(white, black);
+    width: 9%;
+    height: 18%;
+    position: absolute;
+    margin-left: 6%;
+    top: 9%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 50%;
+}
+#INICIO h2{
+    color: black;
+    text-align: center;
+
+    
+}
+#FIM{
+    background: radial-gradient(white, black);
+    width: 9%;
+    height: 18%;
+    position: absolute;
+    margin-left: 54.4%;
+    top: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#FIM h2{
+    color: black;
+    text-align: center;
+}
+
+#dice
+{
+    margin-left: 80%;
+    margin-top: 25%;
+    display: flex;
+    position: relative;
+    transform-style: preserve-3d;
+}
+#dot{
+    border-radius: 12%;
+}
+
+
+#container_button
+{
+    margin-left: 78.5%;
+    margin-top: 1%;
+    display: flex; 
+}
+
+
+#button
+{
+    padding: 1%;
+    background: linear-gradient(rgb(9, 223, 238), rgb(3, 66, 239));
+    font-size: 150%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 5%;
+
+}
+#button:hover
+{
+   background-color: rgb(145, 103, 230);
+}
+
+#player1
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#container_button_right
+{
+    position: relative;
+    margin-left: 95%;
+    margin-top: -40vh;
+    height: 2%;
+    width: 30%;
+    display: flex; 
+}
+
+
+#button_right
+{
+    padding: 1%;
+    background: linear-gradient(rgb(9, 223, 238), rgb(3, 66, 239));
+    font-size: 150%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 5%;
+
+}
+#button_right:hover
+{
+   background-color: rgb(145, 103, 230);
+}
+
+
+#container_button_left
+{
+    position: relative;
+    margin-left: 90%;
+    margin-top: -4.5vh;
+    height: 2%;
+    width: 10px;
+    display: flex; 
+}
+
+
+#button_left
+{
+    padding: 1%;
+    background: linear-gradient(rgb(9, 223, 238), rgb(3, 66, 239));
+    font-size: 150%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 5%;
+
+}
+#button_left:hover
+{
+   background-color: rgb(145, 103, 230);
+}
+
+#container_button_top
+{
+    position: relative;
+    margin-left: 92.5%;
+    margin-top: -10vh;
+    height: 0.5%;
+    width: 29%;
+    display: flex; 
+}
+
+
+#button_top
+{
+    padding: 1.6%;
+    background: linear-gradient(rgb(9, 223, 238), rgb(3, 66, 239));
+    font-size: 150%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 5%;
+
+}
+#button_top:hover
+{
+   background-color: rgb(145, 103, 230);
+}
+
+#container_button_bottom
+{
+    position: relative;
+    margin-left: 92.5%;
+    margin-top: 5vh;
+    height: 0.1%;
+    width: 32%;
+    display: flex; 
+}
+
+
+#button_bottom
+{
+    padding: 1.6%;
+    background: linear-gradient(rgb(9, 223, 238), rgb(3, 66, 239));
+    font-size: 150%;
+    border-radius: 10%;
+    cursor: pointer;
+    border: 5%;
+
+}
+#button_bottom:hover
+{
+   background-color: rgb(145, 103, 230);
+}
+
+
+
+
+
+
+
+
+
+
+
+
