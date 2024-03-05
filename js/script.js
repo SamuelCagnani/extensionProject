@@ -6,9 +6,8 @@
 function init()
 {
     player1.style.position = "relative";
-    player1.style.left = "68vh";
-    player1.style.top = "-77vh";
-    player1.style.right = "-77vh";
+    player1.style.left = "16vh";  //inicio = 16
+    player1.style.top = "-60vh";
 
 
    
@@ -20,9 +19,15 @@ function init()
 window.addEventListener("load", init());
 
 
+document.getElementById("button_right").addEventListener('click', function()
+{
+    player1.style.left = parseInt(player1.style.left) + 16 + "vh";
+    console.log(player1.style.left);
+
+});
 document.getElementById("button_left").addEventListener('click', function()
 {
-    player1.style.left = parseInt(player1.style.left) + (-22) + "vh";
+    player1.style.left = parseInt(player1.style.left) - (16) + "vh";
     console.log(player1.style.left);
 
 
@@ -30,22 +35,16 @@ document.getElementById("button_left").addEventListener('click', function()
 
 document.getElementById("button_top").addEventListener('click', function()
 {
-    player1.style.top = parseInt(player1.style.top) + (-15) + "vh";
+    player1.style.top = parseInt(player1.style.top) + (-16) + "vh";
     console.log(player1.style.top);
 });
 
 document.getElementById("button_bottom").addEventListener('click', function()
 {
-    player1.style.top = parseInt(player1.style.top) + 15 + "vh";
+    player1.style.top = parseInt(player1.style.top) + 16 + "vh";
     console.log(player1.style.top);
 });
 
-document.getElementById("button_right").addEventListener('click', function()
-{
-    player1.style.right = parseInt(player1.style.right) + 22 + "vh";
-    console.log(player1.style.right);
-
-});
 
 
 document.getElementById("button").addEventListener('click', function()
