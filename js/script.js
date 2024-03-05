@@ -69,22 +69,22 @@ function exibirFaceSorteada(random)
     switch(random)
     {
         case 1: 
-            document.getElementById("dot").src = "images/face1.png";
+            document.getElementById("dot").src = "../images/face1.png";
             break;
         case 2: 
-            document.getElementById("dot").src = "images/face2.png";
+            document.getElementById("dot").src = "../images/face2.png";
             break;
         case 3: 
-            document.getElementById("dot").src = "images/face3.png";
+            document.getElementById("dot").src = "../images/face3.png";
             break;
         case 4: 
-            document.getElementById("dot").src = "images/face4.png";
+            document.getElementById("dot").src = "../images/face4.png";
             break;
         case 5: 
-            document.getElementById("dot").src = "images/face5.png";
+            document.getElementById("dot").src = "../images/face5.png";
             break;
         case 6: 
-            document.getElementById("dot").src = "images/face6.png";
+            document.getElementById("dot").src = "../images/face6.png";
             break;
         default:
             break;
